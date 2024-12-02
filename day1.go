@@ -39,7 +39,7 @@ func solvePart2(lhs, rhs []int) int {
 	return answer
 }
 
-func main() {
+func (AoC) SolveDay1() {
 	var lhs []int
 	var rhs []int
 
