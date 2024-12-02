@@ -12,7 +12,7 @@ import (
 )
 
 //go:embed day1.txt
-var input string
+var inputDay1 string
 
 func solvePart1(lhs, rhs []int) int {
 	answer := 0
@@ -43,7 +43,7 @@ func (AoC) SolveDay1() {
 	var lhs []int
 	var rhs []int
 
-	r := bufio.NewReader(strings.NewReader(input))
+	r := bufio.NewReader(strings.NewReader(inputDay1))
 	for {
 		line, _, err := r.ReadLine()
 		if err != nil {
