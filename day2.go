@@ -91,6 +91,6 @@ func (AoC) SolveDay2() {
 		reports = append(reports, report)
 	}
 
-	fmt.Printf("Part 1 = %d\n", day2Part1(reports))
-	fmt.Printf("Part 2 = %d\n", day2Part2(reports))
+	fmt.Printf("Part 1: %d\n", day2Part1(reports))
+	fmt.Printf("Part 2: %d\n", day2Part2(reports))
 }

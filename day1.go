@@ -64,6 +64,6 @@ func (AoC) SolveDay1() {
 	slices.Sort(lhs)
 	slices.Sort(rhs)
 
-	fmt.Printf("part 1 answer = %d\n", solvePart1(lhs, rhs))
-	fmt.Printf("part 2 answer = %d\n", solvePart2(lhs, rhs))
+	fmt.Printf("Part 1: %d\n", solvePart1(lhs, rhs))
+	fmt.Printf("Part 2: %d\n", solvePart2(lhs, rhs))
 }
