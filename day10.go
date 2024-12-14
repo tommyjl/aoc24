@@ -56,10 +56,6 @@ func (d day10) getTrailheads() []vec2 {
 			if d.m[y*d.width+x] == 0 {
 				trailheads = append(trailheads, vec2{x, y})
 			}
-			if y != 0 && y != d.height-1 && x == 0 {
-				// TODO: Delete this if irrelevant in part 2
-				//x += d.width - 2
-			}
 		}
 	}
 	return trailheads
